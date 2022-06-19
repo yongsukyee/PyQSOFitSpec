@@ -3,7 +3,7 @@
 ## 2022-06-19
 ### Changed
 - move line models to `fit_linemodel.py`
-- save output results per spectrum instead of after the whole iterations to avoid OSError
+- save output results per spectrum
 
 
 ## 2022-06-18

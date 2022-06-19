@@ -49,6 +49,17 @@ $ python main.py example
   - [archive/example_PyQSOFit_SBL](https://github.com/yongsukyee/PyQSOFitSpec/tree/main/archive/example_PyQSOFit_SBL): from [PyQSOFit_SBL example_sdss](https://github.com/JackHon55/PyQSOFit_SBL/tree/master/example_sdss)
 
 
+## TODO
+- [ ] In PyQSOFitSpec.py:
+  - [ ] output line_prop as dict for easy access
+  - [ ] change color scheme for decomposition_host, BC
+- [ ] In main.py:
+  - [ ] could improve speed by running in parallel
+  - [ ] tidy up and separate configs if nboot_fit
+  - [ ] change output of run_qsofit so that don't need to manually include/exclude fitted lines
+  - [x] add command line arguments for fits file path or directory
+
+
 ## Cite the original authors of the PyQSOFit code
 ```bibtex
 @MISC{2018ascl.soft09008G,
@@ -66,15 +77,4 @@ archivePrefix = {ascl},
       adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
 ```
-
-
-## TODO
-- [ ] In PyQSOFitSpec.py:
-  - [ ] output line_prop as dict for easy access
-  - [ ] change color scheme for decomposition_host, BC
-- [ ] In main.py:
-  - [ ] could improve speed by running in parallel
-  - [ ] tidy up and separate configs if nboot_fit
-  - [ ] change output of run_qsofit so that don't need to manually include/exclude fitted lines
-  - [x] add command line arguments for fits file path or directory
 
