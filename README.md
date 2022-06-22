@@ -4,7 +4,7 @@
 
 
 ## What's new
-This repo is adapted from [PyQSOFit](https://github.com/legolason/PyQSOFit) and [PyQSOFit_SBL](https://github.com/JackHon55/PyQSOFit_SBL). The main modification includes fitting the spectral line with a different line fitting model. The spectrum is bootstrapped from the flux and error and refitted at each iteration. The mean and standard deviation are calculated to output yield the output line properties. For other updates, see `CHANGELOG.md`.
+This repo is adapted from [PyQSOFit](https://github.com/legolason/PyQSOFit) and [PyQSOFit_SBL](https://github.com/JackHon55/PyQSOFit_SBL). The main modification includes fitting the spectral line with a different line fitting model. The spectrum is bootstrapped from the flux and error and refitted at each iteration. The mean and standard deviation are calculated to yield the output line properties. For other updates, see `CHANGELOG.md`.
 
 The code is used in Yong et al. (2022, submitted) to perform spectral line analysis on orientation selected SDSS samples. <!-- TODO add link -->
 
