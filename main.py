@@ -204,7 +204,7 @@ for ns, i in enumerate(spec, start=1):
         Table({'spectra': [spec_filename], **line_dict('ciii', 'br', ciii_br_prop), **line_dict('civ', 'br', civ_br_prop), **line_dict('mgii', 'br', mgii_br_prop)}).write(f, format='ascii.csv' if ns==1 else 'ascii.no_header', delimiter=',')
 
 
-print(f"Number of fitted spec >> {nb}")
+print(f"Number of fitted spec >> {ns}")
 print(f"Total time >> {time.time() - t0:.4f} s")
 print(f"Saved output results >> {os.path.join(list_dirpaths['out_result'], save_resultfilename)}")
 
