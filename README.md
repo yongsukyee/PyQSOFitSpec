@@ -17,6 +17,18 @@ The code takes an input spectrum (observed-frame wavelength, flux density and er
 The code uses an input line-fitting parameter list to specify the fitting range and parameter constraints of the individual emission line components. An example of such a file is provided in the example.ipynb. Within the code, the user can switch on/off components to fit to the pseudo-continuum. For example, for some objects the UV/optical Fe II emission cannot be well constrained and the user may want to exclude this component in the continuum fit. The code is highly flexible and can be modified to meet the specific needs of the user.
 
 
+## Setup and Requirement
+- Python >3.11
+- Install requirement file via pip:
+  ```shell
+  $ pip install -r requirement.txt
+  ```
+- Install `kapteyn` Check latest version at https://www.astro.rug.nl/software/kapteyn/ (last update: July 1, 2023):
+  ```shell
+  $ pip install https://www.astro.rug.nl/software/kapteyn/kapteyn-3.4.tar.gz
+  ```
+
+
 ## Usage
 - To run:
   ```shell
@@ -58,6 +70,7 @@ $ python main.py example
   - [ ] tidy up and separate configs if nboot_fit
   - [ ] change output of run_qsofit so that don't need to manually include/exclude fitted lines
   - [x] add command line arguments for fits file path or directory
+- [ ] Create config files for configs in main.py
 
 
 ## Cite the original authors of the PyQSOFit code
