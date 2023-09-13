@@ -6,7 +6,7 @@
 ## What's new
 This repo is adapted from [PyQSOFit](https://github.com/legolason/PyQSOFit) and [PyQSOFit_SBL](https://github.com/JackHon55/PyQSOFit_SBL). The main modification includes fitting the spectral line with a different line fitting model. The spectrum is bootstrapped from the flux and error and refitted at each iteration. The mean and standard deviation are calculated to yield the output line properties. For other updates, see `CHANGELOG.md`.
 
-The code is used in Yong et al. (2022, submitted) to perform spectral line analysis on orientation selected SDSS samples. <!-- TODO add link -->
+The code is used in Yong et al. (in prep) to perform spectral line analysis on orientation selected SDSS samples. <!-- TODO add link -->
 
 
 ## Description from PyQSOFit
@@ -23,7 +23,7 @@ The code uses an input line-fitting parameter list to specify the fitting range 
   ```shell
   $ pip install -r requirement.txt
   ```
-- Install `kapteyn` Check latest version at https://www.astro.rug.nl/software/kapteyn/ (last update: July 1, 2023):
+- Install `kapteyn`. Check latest version at https://www.astro.rug.nl/software/kapteyn/ (last update: July 1, 2023):
   ```shell
   $ pip install https://www.astro.rug.nl/software/kapteyn/kapteyn-3.4.tar.gz
   ```
